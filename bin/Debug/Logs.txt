@@ -1,0 +1,67 @@
+Logs for LiveWallpaper.dll.
+Events are sorted from oldest to newest.
+===========================================================
+
+Log Entry: 29 March 2020 17:56:49
+Log Details: System.IO.FileNotFoundException: Could not find file 'D:\Documents (New)\Visual Studio\kOFR Repo\LiveWallpaper\bin\Debug\userSettings.json'.
+File name: 'D:\Documents (New)\Visual Studio\kOFR Repo\LiveWallpaper\bin\Debug\userSettings.json'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at LiveWallpaper.MainWindow.loadUserSettings() in D:\Documents (New)\Visual Studio\kOFR Repo\LiveWallpaper\MainWindow.xaml.cs:line 87
+-------------------------------
+
+Log Entry: 29 March 2020 17:57:51
+Log Details: System.IO.FileNotFoundException: Could not find file 'd:\documents (new)-black-4k-18341.png'.
+File name: 'd:\documents (new)-black-4k-18341.png'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   at System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   at System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   at System.Windows.Media.Imaging.BitmapImage.EndInit()
+   at LiveWallpaper.Background.Window_Loaded(Object sender, RoutedEventArgs e) in D:\Documents (New)\Visual Studio\kOFR Repo\LiveWallpaper\Background.xaml.cs:line 59
+-------------------------------
+
+Log Entry: 29 March 2020 17:58:10
+Log Details: System.IO.FileNotFoundException: Could not find file 'd:\documents (new)-black-4k-18341.png'.
+File name: 'd:\documents (new)-black-4k-18341.png'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   at System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   at System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   at System.Windows.Media.Imaging.BitmapImage.EndInit()
+   at LiveWallpaper.Settings.Window_Loaded(Object sender, RoutedEventArgs e) in D:\Documents (New)\Visual Studio\kOFR Repo\LiveWallpaper\Settings.xaml.cs:line 122
+-------------------------------
+
+Log Entry: 29 March 2020 18:00:13
+Log Details: System.IO.FileNotFoundException: Could not find file 'd:\documents (new)-black-4k-18341.png'.
+File name: 'd:\documents (new)-black-4k-18341.png'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   at System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   at System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   at System.Windows.Media.Imaging.BitmapImage.EndInit()
+   at LiveWallpaper.Background.Window_Loaded(Object sender, RoutedEventArgs e) in D:\Documents (New)\Visual Studio\kOFR Repo\LiveWallpaper\Background.xaml.cs:line 59
+-------------------------------
+
+Log Entry: 29 March 2020 18:00:14
+Log Details: System.IO.FileNotFoundException: Could not find file 'd:\documents (new)-black-4k-18341.png'.
+File name: 'd:\documents (new)-black-4k-18341.png'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   at System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   at System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   at System.Windows.Media.Imaging.BitmapImage.EndInit()
+   at LiveWallpaper.Settings.Window_Loaded(Object sender, RoutedEventArgs e) in D:\Documents (New)\Visual Studio\kOFR Repo\LiveWallpaper\Settings.xaml.cs:line 122
+-------------------------------

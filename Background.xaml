@@ -1,0 +1,16 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LiveWallpaper"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        x:Class="LiveWallpaper.Background"
+        Background="{x:Null}"
+        mc:Ignorable="d" ShowInTaskbar="False" Loaded="Window_Loaded" WindowState="Normal"
+        Title="Background" AllowsTransparency="True" WindowStyle="None" Height="450" Width="800">
+    <Grid>
+        <MediaElement x:Name="wallpaperContent" Volume="0" MediaEnded="wallpaperContent_MediaEnded"/>
+        <Image x:Name="imageBackground" gif:ImageBehavior.RepeatBehavior="Forever"/>
+    </Grid>
+</Window>
